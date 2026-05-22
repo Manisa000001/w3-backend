@@ -1,0 +1,19 @@
+Q1 – What challenges did you face when using the native http module that Express.js helped you solve?
+
+When using http the code is long difficult to manage  and express.js helped solve these problem .
+
+
+
+
+
+Q2 – How does Express simplify route handling compared to the native HTTP server?
+
+Express simplifies route handling by abstracting away the manual parsing and response logic required in Node’s native HTTP module, letting developers define routes with clean, declarative methods like app.get() instead of writing conditional logic for every request.
+
+
+
+
+Q3 – What does middleware mean in Express, and how would you replicate similar behavior using the native module?
+
+
+Middleware in Express is a function that runs before the final response is sent to the client. It can be used for logging, authentication, validation, or modifying requests and responses.
